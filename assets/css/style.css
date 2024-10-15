@@ -397,6 +397,10 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 }
 
+.portfolio-text {
+  color: var(--text-color);
+}
+
 .row {
   cursor: pointer;
   overflow: hidden;
@@ -443,7 +447,6 @@ section {
 .layer p {
   font-size: 1rem;
   line-height: 1.8;
-  color: var(--second-color);
 }
 
 .layer i {
