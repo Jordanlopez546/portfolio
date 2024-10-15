@@ -23,7 +23,7 @@
   --transition: 0.4s ease-in-out;
 }
 
-body {
+.body {
   color: var(--text-color);
   transition: all 600ms ease;
   background: var(--bg-color);
@@ -48,7 +48,7 @@ body {
   color: var(--text-color);
 }
 
-header {
+.header {
   top: 0;
   right: 0;
   width: 100%;
@@ -62,7 +62,7 @@ header {
   border-bottom: 1px solid transparent;
 }
 
-header.sticky {
+.header.sticky {
   padding: 12px 15%;
   background: var(--bg-color);
   border-bottom: 1px solid #ffffff1a;
@@ -113,7 +113,7 @@ section {
   padding: 160px 15% 120px;
 }
 
-footer {
+.footer {
   padding: 160px 15% 120px;
 }
 
@@ -596,12 +596,12 @@ form textarea:focus {
 }
 
 @media (max-width: 1480px) {
-  header {
+  .header {
     padding: 12px 2.5%;
     transition: var(--transition);
   }
 
-  header.sticky {
+  .header.sticky {
     padding: 10px 2.5%;
     transition: var(--transition);
   }
