@@ -397,10 +397,6 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 }
 
-.portfolio-text {
-  color: var(--text-color);
-}
-
 .row {
   cursor: pointer;
   overflow: hidden;
